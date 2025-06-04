@@ -1,0 +1,26 @@
+{
+  "name": "chat-with-pdf-langchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@types/pdf-parse": "^1.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.5.11",
+    "langchain": "^0.3.27",
+    "openai": "^5.1.0",
+    "pdf-parse": "^1.1.1",
+    "typed-env-safe": "^1.0.1"
+  }
+}
